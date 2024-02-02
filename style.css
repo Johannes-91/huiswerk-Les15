@@ -1,0 +1,68 @@
+body{ margin:0; padding:0; font-family: Arial, Helvetica, sans-serif; background-color: rgb(136, 171, 245)} 
+
+header{background-color: rgb(2, 73, 226); height: 200px; padding:10px;}
+
+ul{ color:white; text-decoration:none; display: inline-block; font-size: 16px; font-weight: bold;}
+
+li {display: inline-block; margin: 50px 0 0 30px; color: white;}
+li a:visited{color: white; text-decoration: none;}
+
+li a:hover:not(.active) {
+    color: aquamarine; cursor:pointer;text-decoration: none;}  
+li a:active {
+    color:rgb(168, 45, 148); text-decoration: none;}
+
+.active{background-color: #a31f1f; padding:10px;}
+
+ p{max-width: 600px; line-height: 25px;}
+
+.content{margin: auto; min-height:400px; max-width: 1200px; }
+.content-left{ float: left; margin-left: 20px; margin-right: 50px; padding:10px;}
+.content-right{padding:40px;}
+table, th, td{border:1px solid #000; border-collapse: collapse; padding:8px;}
+td, th{text-align: left;}
+
+ #copyright{max-width:1200px; margin:auto; margin-top:20px; padding:5px; color:white; }
+ footer{background-color: rgb(2, 73, 226); }
+
+ /*Contactformulier*/
+ 
+ input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  #Contact_textarea{min-height: 300px;}
+  
+  input[type=submit] {
+    background-color: #5452c7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #151957;
+  }
+
+  input[type=submit]:active {
+    background-color: #b42b2b;
+  }

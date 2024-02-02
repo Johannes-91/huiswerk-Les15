@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mijncv.html">Curriculum vitae</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+    </header>
+    <div class="content">
+        <br><br>
+        <form
+        action="https://formspree.io/f/mqkrpeaj"
+        method="POST">
+        <label>
+            Voornaam:
+            <input type="text" name="Voornaam">
+          </label>
+        <label>
+            Achternaam:
+            <input type="text" name="Achternaam">
+            </label>
+        <label>
+            Email:
+            <input type="email" name="Email">
+        </label>
+        <label>
+            Uw bericht:
+            <textarea name="message" id="Contact_textarea"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <br><br>
+    <footer>
+        <div id="copyright">
+            <p>Copyright Hans van der Hoeven - 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
